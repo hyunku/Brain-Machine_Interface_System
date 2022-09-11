@@ -1,3 +1,11 @@
+# 팀원
+
+강현구, 김묘경, 이회영, 추연희
+
+# 프로젝트 기간
+
+2021.3 ~ 2022.9
+
 # Mind Pong
 
 system : EEG -> decoder (server) -> Pong
