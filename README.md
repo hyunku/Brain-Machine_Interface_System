@@ -43,7 +43,7 @@ make sure proper serial_port (eg.: "COM4") before running src/run_eeg.py
 
 running decoder
 
- - python src/run_decoder.py
+ - python src/run_decoder_2.py
   
 running pong app
 
