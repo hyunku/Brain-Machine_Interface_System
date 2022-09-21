@@ -8,6 +8,7 @@ import struct
 import numpy as np
 import pandas as pd
 from config import load_parameters
+from SimpleESN import SimpleESN
 
 # parameters
 from keypress import AutoKeyPressor
