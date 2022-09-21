@@ -1,4 +1,3 @@
-# if you want to use esn model, overwrite code  "pretrained_model" : "res/lin_model.pkl" to  "pretrained_model" : "res/esn_model_pipe.pkl"
 {
         "output_dir" : "G:/공유 드라이브/4N/Data/Pong",
     "-------- decoder parameters --------" : "",
