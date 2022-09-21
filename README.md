@@ -18,7 +18,7 @@ EEG
  - OpenBCI, CYTON_DAISY board connected with serial port
 
 decoder
- - preprocessing with mne package, inference with pytorch
+ - preprocessing with mne package, inference with Echo State Network (ESN) or Linear Model
 
 Pong
 
@@ -38,6 +38,8 @@ pip install -r requirements.txt
 app is controlled by config.json
 
 make sure proper serial_port (eg.: "COM4") before running src/run_eeg.py
+
+choose pretrain model (linear, esn) on config.json
 
 ## run
 
