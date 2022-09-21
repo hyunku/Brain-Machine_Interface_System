@@ -1,9 +1,10 @@
+# if you want to use esn model, overwrite code  "pretrained_model" : "res/lin_model.pkl" to  "pretrained_model" : "res/esn_model_pipe.pkl"
 {
         "output_dir" : "G:/공유 드라이브/4N/Data/Pong",
     "-------- decoder parameters --------" : "",
         "HOST" : "127.0.0.1",
         "device" : "cuda",
-        "pretrained_model" : "res/lin_model.pkl", # use esn model : "res/esn_model_pipe.pkl"
+        "pretrained_model" : "res/lin_model.pkl",
     "-------- pong parameters --------": "",
         "FPS" : 60,
         "WINDOW_SIZE" : [1280, 720],
