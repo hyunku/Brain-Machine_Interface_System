@@ -57,7 +57,7 @@ running eeg app
 
 ## ingame option control
 
- - difficulty option is controlled by socket_thread.py
+ difficulty option is controlled by socket_thread.py
  
  - check parameter named "difficulty"
  - "difficulty" parameter can get 0 ~ 1 value.
@@ -66,7 +66,7 @@ running eeg app
  - 1: 0% AI data, 100% eeg data -> hard mode
  
  
- - ball speed option is controlled by run_app.py
+ ball speed option is controlled by run_app.py
  
  - check class named Player()
  - you can update ball speed by rewriting self.speed
