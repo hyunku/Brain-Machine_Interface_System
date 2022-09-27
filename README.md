@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 app is controlled by config.json
 
-make sure proper serial_port (eg.: "COM4") before running src/run_eeg.py
+make sure proper serial_port (eg.: "COM6") before running src/run_eeg.py
 
 choose pretrain model (linear, esn) on config.json
 
@@ -54,3 +54,20 @@ running pong app
 running eeg app
 
  - python src/run_eeg.py
+
+## ingame option control
+
+ - difficulty option is controlled by socket_thread.py
+ 
+ - check parameter named "difficulty"
+ - "difficulty" parameter can get 0 ~ 1 value.
+ - 0: 100% AI data, 0% eeg data -> easy mode
+ - 0.5 : 50% AI data, 50% eeg data -> medium mode
+ - 1: 0% AI data, 100% eeg data -> hard mode
+ 
+ 
+ - ball speed option is controlled by run_app.py
+ 
+ - check class named Player()
+ - you can update ball speed by rewriting self.speed
+ 
