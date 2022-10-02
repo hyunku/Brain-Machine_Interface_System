@@ -66,8 +66,10 @@ running eeg app
  - 1: 0% AI data, 100% eeg data -> hard mode
  
  
- ball speed option is controlled by run_app.py
+ ball speed and bar speed option is controlled by run_app.py
  
  - check class named Player()
  - you can update ball speed by rewriting self.speed
+ - you can update bar speed by rewriting self.speed
+ - both bar and ball speed has default speed : 5
  
