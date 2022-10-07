@@ -73,3 +73,7 @@ running eeg app
  - you can update bar speed by rewriting self.speed
  - both bar and ball speed has default speed : 5
  
+ ## Manual ( Update Scheduled )
+ 
+ 1. 
+ 
