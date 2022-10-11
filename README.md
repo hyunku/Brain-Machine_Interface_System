@@ -76,7 +76,7 @@ running eeg app
  ## Manual ( Update Scheduled )
  
  1. bci and computer is connected by socket make sure proper serial_port (eg.: "COM6") before running src/run_eeg.py
- 2. run src/run_eeeg.py to collect your personal eeg data
+ 2. run src/run_eeg.py to collect your personal eeg data
  3. run src/run_app.py to collect your target data about your personal eeg data
 
     target data is signanl direction about your eeg data.
@@ -88,4 +88,7 @@ running eeg app
     signal value 0 means thinking about stay(nothing to do).
  
  4. make your own pretrain model with your eeg data and target data.
- 5. 
+ 5. plant you pretrained model into src, and specify src/config.json and decodre_2.
+ 6. run src/run_decoder_2.py to Inference from your eeg data
+ 7. run src/run_app.py game function to start game
+ 8. run src/run_eeg.py to get your personal eeg data.
