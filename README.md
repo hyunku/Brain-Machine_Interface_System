@@ -73,7 +73,7 @@ running eeg app
  - you can update bar speed by rewriting self.speed
  - both bar and ball speed has default speed : 5
  
- ## Manual ( Update Scheduled )
+ ## Manual
  
  1. bci and computer is connected by socket make sure proper serial_port (eg.: "COM6") before running src/run_eeg.py
  2. run src/run_eeg.py to collect your personal eeg data
