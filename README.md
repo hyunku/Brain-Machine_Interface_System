@@ -79,13 +79,13 @@ running eeg app
  2. run src/run_eeeg.py to collect your personal eeg data
  3. run src/run_app.py to collect your target data about your personal eeg data
 
- target data is signanl direction about your eeg data.
+    target data is signanl direction about your eeg data.
  
- signal value 1 means thinking about going up.
+    signal value 1 means thinking about going up.
  
- signal value -1 means thinking about going down.
+    signal value -1 means thinking about going down.
  
- signal value 0 means thinking about stay(nothing to do).
+    signal value 0 means thinking about stay(nothing to do).
  
  4. make your own pretrain model with your eeg data and target data.
  5. 
