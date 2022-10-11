@@ -77,10 +77,15 @@ running eeg app
  
  1. bci and computer is connected by socket make sure proper serial_port (eg.: "COM6") before running src/run_eeg.py
  2. run src/run_eeeg.py to collect your personal eeg data
- 3. run src/run_app.py to collect your target data about your personal eeg data <br><br>
- target data is signanl direction about your eeg data. <br>
- signal value 1 means thinking about going up. <br>
- signal value -1 means thinking about going down. <br>
- signal value 0 means thinking about stay(nothing to do). <br>
+ 3. run src/run_app.py to collect your target data about your personal eeg data
+
+ target data is signanl direction about your eeg data.
  
- 4. sdf
+ signal value 1 means thinking about going up.
+ 
+ signal value -1 means thinking about going down.
+ 
+ signal value 0 means thinking about stay(nothing to do).
+ 
+ 4. make your own pretrain model with your eeg data and target data.
+ 5. 
